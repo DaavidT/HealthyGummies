@@ -5,27 +5,27 @@ import type { CompatibilityItem } from "~/types";
 
 const frameworks: Array<CompatibilityItem> = [
   {
-    title: "React",
+    title: "Gomitas Sin Azúcar de Frutas Frescas",
     icon: "frameworks/react",
     url: "https://reactjs.org/",
   },
   {
-    title: "Preact",
+    title: "Gomitas de Colágeno y Biotina",
     icon: "frameworks/preact",
     url: "https://preactjs.com/",
   },
   {
-    title: "Svelte",
+    title: "Gomitas Energéticas Sin Azúcar:",
     icon: "frameworks/svelte",
     url: "https://svelte.dev/",
   },
   {
-    title: "Vue",
+    title: "Gomitas Sin Azúcar con Propiedades Antioxidantes",
     icon: "frameworks/vue",
     url: "https://vuejs.org/",
   },
   {
-    title: "Solid",
+    title: "Gomitas para un Sueño Tranquilo",
     icon: "frameworks/solid",
     url: "https://www.solidjs.com/",
   },
@@ -70,20 +70,22 @@ const platforms: Array<CompatibilityItem> = [
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Productos" id="products">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
+    Astro . Bring your own UI{" "}
     <span class="text-primary">framework</span>
      and deploy to your favorite <span class="text-primary">platform</span>.
+     Creadas con  <span class="text-primary">devoción y cuidado</span>, nuestras gomitas no solo son <span class="text-primary">irresistiblemente deliciosas</span>, 
+     sino también una opción consciente para aquellos que buscan  <span class="text-primary">disfrutar de lo dulce</span> sin comprometer su bienestar.
   </Fragment>
   <CompatibilityList
     items={frameworks}
-    title="Frameworks"
-    url="https://docs.astro.build/core-concepts/framework-components/"
+    title="Productos estrella"
+    url=""
   />
   <CompatibilityList
     items={platforms}
-    title="Platforms"
-    url="https://docs.astro.build/guides/deploy/"
+    title="Productos libres de edulcorantes"
+    url=""
   />
 </ContentSection>
